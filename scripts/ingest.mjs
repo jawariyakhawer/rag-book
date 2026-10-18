@@ -1,5 +1,4 @@
-// Reads docs/, splits into chunks, embeds them with Gemini and stores them in Qdrant.
-// Run: npm run ingest      (needs .env, see .env.example)
+
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
