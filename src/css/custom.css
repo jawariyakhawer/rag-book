@@ -1,0 +1,66 @@
+/* ===== Javeria's book: "Aurora" theme (teal / emerald, serif headings) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --ifm-color-primary: #0b7f70;
+  --ifm-color-primary-dark: #0a7366;
+  --ifm-color-primary-darker: #096d60;
+  --ifm-color-primary-darkest: #07584e;
+  --ifm-color-primary-light: #0d8b7a;
+  --ifm-color-primary-lighter: #0e9180;
+  --ifm-color-primary-lightest: #11b09b;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Fraunces', Georgia, serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
+  --ifm-code-font-size: 92%;
+  --ifm-global-radius: 12px;
+  --ifm-navbar-height: 4rem;
+  --ifm-background-color: #fbfdfc;
+  --docusaurus-highlighted-code-line-bg: rgba(11, 127, 112, 0.12);
+}
+[data-theme='dark'] {
+  --ifm-color-primary: #3ddac4;
+  --ifm-color-primary-dark: #22d4bb;
+  --ifm-color-primary-darker: #1fc7b0;
+  --ifm-color-primary-darkest: #19a491;
+  --ifm-color-primary-light: #59dfcb;
+  --ifm-color-primary-lighter: #67e2cf;
+  --ifm-color-primary-lightest: #8aead9;
+  --ifm-background-color: #0b1514;
+  --ifm-background-surface-color: #101e1c;
+  --docusaurus-highlighted-code-line-bg: rgba(61, 218, 196, 0.15);
+}
+
+h1, h2, h3 { letter-spacing: -0.01em; }
+.markdown h1 { font-size: 2.3rem; }
+.markdown h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(11, 127, 112, 0.18);
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--ifm-background-color) 85%, transparent);
+  box-shadow: 0 1px 0 rgba(11, 127, 112, 0.15);
+}
+.navbar__title { font-family: 'Fraunces', Georgia, serif; font-weight: 700; }
+.navbar__logo img { border-radius: 8px; }
+
+.menu__link--sublist-caret:after, .menu__link { border-radius: 10px; }
+.menu__link--active:not(.menu__link--sublist) {
+  background: rgba(11, 127, 112, 0.12);
+  font-weight: 600;
+}
+
+.theme-admonition-info {
+  --ifm-alert-background-color: rgba(11, 127, 112, 0.08);
+  --ifm-alert-border-color: #0b7f70;
+  border-left-width: 5px;
+}
+.theme-admonition-info > div:first-child { text-transform: none; }
+
+.footer--dark { background: #07211d; }
+
+pre, .prism-code { border-radius: 12px; }
+table { display: table; width: 100%; }

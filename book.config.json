@@ -1,0 +1,13 @@
+{
+  "ownerName": "Javeria Hassan",
+  "ownerFirstName": "Javeria",
+  "bookTitle": "AI & Data Science",
+  "edition": "Javeria Hassan Edition",
+  "tagline": "A 10-month journey from Python to Agentic AI, in English and Roman Urdu",
+  "creator": "Maria Hussain",
+  "qdrantCollection": "javeria_book",
+  "siteUrl": "https://javeria-ai-ds-book.vercel.app",
+  "projectName": "javeria-ai-ds-book",
+  "botName": "Javeria AI Tutor",
+  "theme": "aurora"
+}

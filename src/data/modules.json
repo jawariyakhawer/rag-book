@@ -1,0 +1,74 @@
+[
+  {
+    "n": 1,
+    "title": "Python Foundations",
+    "weeks": "Weeks 2-6",
+    "weekCount": 5,
+    "summary": "Python is the language of data science. This module builds a solid base: syntax, control flow, functions, data structures, files, errors and object-oriented programming.",
+    "path": "/docs/module-01-python-foundations"
+  },
+  {
+    "n": 2,
+    "title": "Python for Data Science (NumPy, Pandas, Visualization)",
+    "weeks": "Weeks 7-10",
+    "weekCount": 4,
+    "summary": "Learn the core data science toolkit: fast numerical computing with NumPy, tabular data with Pandas, cleaning messy data and telling stories with charts.",
+    "path": "/docs/module-02-python-for-data-science"
+  },
+  {
+    "n": 3,
+    "title": "Statistics and Math for ML",
+    "weeks": "Weeks 11-14",
+    "weekCount": 4,
+    "summary": "Machine learning stands on statistics, probability and linear algebra. This module gives you the math you actually need, with data-driven examples.",
+    "path": "/docs/module-03-statistics-and-math-for-ml"
+  },
+  {
+    "n": 4,
+    "title": "Machine Learning",
+    "weeks": "Weeks 15-21",
+    "weekCount": 7,
+    "summary": "From the ML pipeline to supervised and unsupervised algorithms, you learn to build, evaluate and compare models on real datasets.",
+    "path": "/docs/module-04-machine-learning"
+  },
+  {
+    "n": 5,
+    "title": "Deep Learning",
+    "weeks": "Weeks 22-26",
+    "weekCount": 5,
+    "summary": "Neural networks, computer vision and natural language processing: the technology behind image recognition, translation and chatbots.",
+    "path": "/docs/module-05-deep-learning"
+  },
+  {
+    "n": 6,
+    "title": "MLOps",
+    "weeks": "Weeks 27-30",
+    "weekCount": 4,
+    "summary": "A model is only useful when people can use it. Learn to deploy, containerize, track and monitor machine learning systems.",
+    "path": "/docs/module-06-mlops"
+  },
+  {
+    "n": 7,
+    "title": "Big Data and Cloud",
+    "weeks": "Weeks 31-34",
+    "weekCount": 4,
+    "summary": "When data no longer fits on one machine you need distributed tools. Learn Hadoop, Spark and the basics of cloud platforms (AWS or Azure).",
+    "path": "/docs/module-07-big-data-and-cloud"
+  },
+  {
+    "n": 8,
+    "title": "Generative AI (LLMs)",
+    "weeks": "Weeks 35-38",
+    "weekCount": 4,
+    "summary": "Understand how large language models work and build with them: prompting, fine-tuning, RAG and vector databases. This is the module this very book's AI tutor is built on.",
+    "path": "/docs/module-08-generative-ai-llms"
+  },
+  {
+    "n": 9,
+    "title": "Agentic AI",
+    "weeks": "Weeks 39-41",
+    "weekCount": 3,
+    "summary": "AI agents do not just answer: they plan, use tools, remember and collaborate. Build autonomous and multi-agent systems.",
+    "path": "/docs/module-09-agentic-ai"
+  }
+]
